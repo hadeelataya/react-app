@@ -1,0 +1,53 @@
+.my-home{
+    background-color: 
+    #1ABC9C;
+height: 100vh;
+width:  100%;
+text-align: center;
+position: relative;
+
+}
+.home-part{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+
+}
+.home-desc{
+    
+    width: 100%;
+}
+.home-avatar {
+    width:300px;
+    height:300px;
+}
+.fs-1{
+    margin-right: 50px;
+}
+.line1{
+    width: 100px;
+    height:  4px;
+    background-color: white;
+}
+.fa-star{
+    position: relative;
+}
+
+.fa-star::before{
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+}
+.line2{
+    width:  100px;
+    height:  4px;
+    background-color: white;
+    position: absolute;
+    right: 80px;
+    top:77%;
+
+}
+.ms-3{
+    margin-left: 1rem !important;
+}
